@@ -32,14 +32,12 @@ export const Icon = styled.div`
   outline: none;
 `;
 
-export const SidebarWrapper = styled.div`
-  color: #fff;
-`;
+export const SidebarWrapper = styled.div``;
 
 export const SidebarMenu = styled.ul`
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(6, 180px);
+  grid-template-rows: repeat(6, 80px);
   text-align: center;
 
   @media screen and (max-width: 480px) {
@@ -60,7 +58,7 @@ export const SidebarLink = styled(LinkS)`
 
   &:hover {
     color: #01bf71;
-    transition: 0.2s ease-in-out;
+    transition: 1s ease-in-out;
   }
 `;
 
